@@ -11,7 +11,7 @@ namespace RockPaperScissors_EricMeas
             RockPaperScissors();
         }
 
-        static void RockPaperScissors()
+        private static void RockPaperScissors()
         {
             string? roundStart = "Choose your move: Rock, Paper, Scissors, Lizard, or Spock.";
             string[] choicesList = { "rock", "paper", "scissors", "lizard", "spock" };
